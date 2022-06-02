@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d96ff2d-b9ce-4807-8568-a5feb75e2184" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="1466" />
+    <option name="totalTimeSeconds" value="2337" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -104,8 +106,30 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MotoMsApplication">
-    <configuration name="CarMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Gradle.Tests in 'user-ms'">
+    <configuration name="Tests in 'user-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-ms" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CarMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <option name="ACTIVE_PROFILES" />
       <module name="car-ms.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cl.figonzal.carms.CarMsApplication" />
       <method v="2">
@@ -133,13 +157,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UserMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <option name="ACTIVE_PROFILES" />
       <module name="user-ms.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cl.figonzal.userms.UserMsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.Tests in 'user-ms'" />
+      <item itemvalue="Spring Boot.CarMsApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaMsApplication" />
+      <item itemvalue="Spring Boot.MotoMsApplication" />
+      <item itemvalue="Spring Boot.UserMsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'user-ms'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="2028000" />
+      <workItem from="1654145654831" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka config">
       <created>1654146154849</created>
@@ -172,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654147298457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="correccion de branch">
+      <created>1654147718900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654147718900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +238,8 @@
     <MESSAGE value="Eureka config" />
     <MESSAGE value="correccion puerto eureka" />
     <MESSAGE value="Multiples instancias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiples instancias" />
+    <MESSAGE value="correccion de branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="correccion de branch" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
