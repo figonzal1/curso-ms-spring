@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940f0df5-e60d-460b-aa91-9fa3f20bd04f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-ms/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-ms.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="442" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -54,7 +52,28 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Felipe González Alarcón &lt;felipe.gonzalezalarcon94@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A0hZQXgZCt2X5kwUDp69Shkimq" />
   <component name="ProjectViewState">
@@ -63,14 +82,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Felipe/.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MotoMsApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayMsApplication">
     <configuration name="CarMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="car-ms.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cl.figonzal.carms.CarMsApplication" />
@@ -122,11 +158,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654152469302</updated>
-      <workItem from="1654152473839" duration="163000" />
+      <workItem from="1654152473839" duration="856000" />
     </task>
+    <task id="LOCAL-00001" summary="Nuevo puerto para gateway">
+      <created>1654152843660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654152843660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nuevo puerto para gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo puerto para gateway" />
   </component>
 </project>
