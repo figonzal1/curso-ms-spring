@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d96ff2d-b9ce-4807-8568-a5feb75e2184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/eureka-ms.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/src/main/kotlin/cl/figonzal/eurekams/EurekaMsApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-ms/src/test/kotlin/cl/figonzal/eurekams/EurekaMsApplicationTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/car-ms/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-ms/src/main/kotlin/cl/figonzal/carms/CarMsApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/car-ms/src/main/kotlin/cl/figonzal/carms/CarMsApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/kotlin/cl/figonzal/configservice/ConfigServiceApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/main/kotlin/cl/figonzal/configms/ConfigServiceApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/test/kotlin/cl/figonzal/configservice/ConfigServiceApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/test/kotlin/cl/figonzal/configservice/ConfigServiceApplicationTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moto-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/moto-ms/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/UserMsApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/UserMsApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/eureka-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-ms.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ms/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="824" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -78,7 +49,13 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Felipe González Alarcón &lt;felipe.gonzalezalarcon94@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -88,9 +65,12 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A0TkBiqLQsaIqYiBoHtgzo6Wwy" />
   <component name="ProjectViewState">
@@ -99,13 +79,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Felipe/.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.MotoMsApplication">
     <configuration name="CarMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="car-ms.main" />
@@ -151,11 +146,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="139000" />
+      <workItem from="1654145654831" duration="1021000" />
     </task>
+    <task id="LOCAL-00001" summary="Eureka config">
+      <created>1654146154849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654146154849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Eureka config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eureka config" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
