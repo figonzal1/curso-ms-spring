@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server #branch
+          uri: https://github.com/figonzal1/curso-ms-spring.git
+          search-paths: config-data
+  application:
+    name: config-service
