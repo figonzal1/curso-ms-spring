@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9999
 spring:
   cloud:
     config:
@@ -9,4 +9,4 @@ spring:
           uri: https://github.com/figonzal1/curso-ms-spring.git
           search-paths: config-data
   application:
-    name: config-service
+    name: config-ms

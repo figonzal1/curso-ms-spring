@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter")
     implementation("org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.2")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-server")
+    implementation("org.springframework.cloud:spring-cloud-config-client:3.1.2")
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
