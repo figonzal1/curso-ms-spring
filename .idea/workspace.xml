@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d96ff2d-b9ce-4807-8568-a5feb75e2184" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/gateway-ms.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/src/main/kotlin/cl/figonzal/gatewayms/GatewayMsApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-ms/src/test/kotlin/cl/figonzal/gatewayms/GatewayMsApplicationTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4137" />
+    <option name="totalTimeSeconds" value="5243" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -26,6 +40,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-ms">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gatewat-ms">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/gateway-ms">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/moto-ms">
@@ -55,7 +75,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="eureka" />
+        <entry key="$PROJECT_DIR$" value="multi-instance" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,8 +109,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Felipe/.gradle",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Felipe/Escritorio/GithubProjects/Webs/curso-ms-spring/config-data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +120,11 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Felipe\Escritorio\GithubProjects\Webs\curso-ms-spring\config-data" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -149,6 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-ms.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cl.figonzal.gatewayms.GatewayMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MotoMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moto-ms.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cl.figonzal.motoms.MotoMsApplication" />
@@ -166,6 +200,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Tests in 'user-ms'" />
+      <item itemvalue="Spring Boot.GatewayMsApplication" />
       <item itemvalue="Spring Boot.UserMsApplication" />
       <item itemvalue="Spring Boot.CarMsApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
@@ -186,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="5168000" />
+      <workItem from="1654145654831" duration="6290000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka config">
       <created>1654146154849</created>
@@ -244,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654150554334</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="otro cambio">
+      <created>1654150903613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654150903613</updated>
+    </task>
+    <task id="LOCAL-00010" summary="nombre final">
+      <created>1654151026862</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654151026862</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +319,9 @@
     <MESSAGE value="correccion archivos config 2" />
     <MESSAGE value="eliminar nombre de instancia" />
     <MESSAGE value="instancia con numero random" />
-    <option name="LAST_COMMIT_MESSAGE" value="instancia con numero random" />
+    <MESSAGE value="otro cambio" />
+    <MESSAGE value="nombre final" />
+    <option name="LAST_COMMIT_MESSAGE" value="nombre final" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
