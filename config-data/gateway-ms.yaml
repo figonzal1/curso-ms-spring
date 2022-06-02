@@ -20,6 +20,6 @@ spring:
           predicate:
             - Path=/user/**
         - id: car-ms
-            uri: lb://car-ms
-            predicate:
-              - Path=/car/**
+          uri: lb://car-ms
+          predicate:
+            - Path=/car/**
