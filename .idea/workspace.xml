@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d96ff2d-b9ce-4807-8568-a5feb75e2184" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-data/eureka-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-ms.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-ms/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="824" />
+    <option name="totalTimeSeconds" value="1421" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -53,6 +53,11 @@
       <list>
         <option value="Felipe González Alarcón &lt;felipe.gonzalezalarcon94@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="eureka" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
@@ -146,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="1021000" />
+      <workItem from="1654145654831" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka config">
       <created>1654146154849</created>
@@ -155,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654146154849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="correccion puerto eureka">
+      <created>1654146708162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654146708162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Eureka config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eureka config" />
+    <MESSAGE value="correccion puerto eureka" />
+    <option name="LAST_COMMIT_MESSAGE" value="correccion puerto eureka" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
