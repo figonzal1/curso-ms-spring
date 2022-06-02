@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2677" />
+    <option name="totalTimeSeconds" value="3334" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -165,11 +165,11 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Tests in 'user-ms'" />
+      <item itemvalue="Spring Boot.UserMsApplication" />
       <item itemvalue="Spring Boot.CarMsApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.EurekaMsApplication" />
       <item itemvalue="Spring Boot.MotoMsApplication" />
-      <item itemvalue="Spring Boot.UserMsApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -185,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="3223000" />
+      <workItem from="1654145654831" duration="4208000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka config">
       <created>1654146154849</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654148719222</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="correccion archivos config 2">
+      <created>1654149093680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654149093680</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +252,8 @@
     <MESSAGE value="Multiples instancias" />
     <MESSAGE value="correccion de branch" />
     <MESSAGE value="correccion archivos config" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion archivos config" />
+    <MESSAGE value="correccion archivos config 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="correccion archivos config 2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
