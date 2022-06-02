@@ -1,4 +1,4 @@
-package cl.figonzal.configservice
+package cl.figonzal.configms
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
