@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d96ff2d-b9ce-4807-8568-a5feb75e2184" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/car-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/car-ms.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2337" />
+    <option name="totalTimeSeconds" value="2677" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -106,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'user-ms'">
+  <component name="RunManager" selected="Spring Boot.UserMsApplication">
     <configuration name="Tests in 'user-ms'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654145651229</updated>
-      <workItem from="1654145654831" duration="2891000" />
+      <workItem from="1654145654831" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka config">
       <created>1654146154849</created>
@@ -217,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654147718900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="correccion archivos config">
+      <created>1654148719222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654148719222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +244,8 @@
     <MESSAGE value="correccion puerto eureka" />
     <MESSAGE value="Multiples instancias" />
     <MESSAGE value="correccion de branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion de branch" />
+    <MESSAGE value="correccion archivos config" />
+    <option name="LAST_COMMIT_MESSAGE" value="correccion archivos config" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
