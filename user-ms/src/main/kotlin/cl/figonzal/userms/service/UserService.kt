@@ -39,10 +39,11 @@ class UserService {
 
     //REST TEMPLATE
     fun getCars(userId: Int): List<Car>? {
-        return restTemplate.getForObject("http://localhost:8082/car/user/$userId", Array<Car>::class.java)?.toList()
+        return carFeignClient.getUserCars(userId)
     }
 
     fun getMotos(userId: Int): List<Moto>? {
+        //TODO: Reemplazar por la llamada a feign
         return restTemplate.getForObject("http://localhost:8081/moto/user/$userId", Array<Moto>::class.java)?.toList()
     }
 
