@@ -4,7 +4,9 @@ import cl.figonzal.userms.entity.User
 import cl.figonzal.userms.model.Car
 import cl.figonzal.userms.model.Moto
 import cl.figonzal.userms.service.UserService
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
@@ -40,6 +42,7 @@ class UserController {
         return ResponseEntity.ok(userService.saveUser(user))
     }
 
+    @CircuitBreaker(name = "carCB", fallbackMethod = "fallBackGetCars")
     @GetMapping("/{userId}/cars")
     fun getUserCars(@PathVariable userId: Int): ResponseEntity<List<Car>> {
 
@@ -48,6 +51,7 @@ class UserController {
 
     }
 
+    @CircuitBreaker(name = "motoCB", fallbackMethod = "fallBackGetMotos")
     @GetMapping("/{userId}/motos")
     fun getUserMotos(@PathVariable userId: Int): ResponseEntity<List<Moto>> {
         val user = userService.getUserById(userId) ?: return ResponseEntity.notFound().build()
@@ -55,6 +59,7 @@ class UserController {
     }
 
     //Guardar auto desde user-ms
+    @CircuitBreaker(name = "carCB", fallbackMethod = "fallBackSaveCar")
     @PostMapping("/{userId}/car")
     fun saveCar(@PathVariable userId: Int, @RequestBody car: Car): ResponseEntity<Car> {
         val newCar = userService.saveCar(userId, car)
@@ -63,6 +68,7 @@ class UserController {
     }
 
     //guardar moto desde user-ms
+    @CircuitBreaker(name = "motoCB", fallbackMethod = "fallBackSaveMoto")
     @PostMapping("/{userId}/moto")
     fun saveMoto(@PathVariable userId: Int, @RequestBody moto: Moto): ResponseEntity<Moto> {
         val newMoto = userService.saveMoto(userId, moto)
@@ -71,6 +77,7 @@ class UserController {
     }
 
     //consultar todos los vehiculos del usuario
+    @CircuitBreaker(name = "allCB", fallbackMethod = "fallBackGetAll")
     @GetMapping("/{userId}/vehicles")
     fun getVehicles(@PathVariable userId: Int): ResponseEntity<HashMap<String, Any>> {
 
@@ -81,5 +88,21 @@ class UserController {
             }
             return ResponseEntity.ok(this)
         }
+    }
+
+    fun fallBackGetCars(@PathVariable userId: Int, exception: RuntimeException): ResponseEntity<String> {
+        return ResponseEntity("El usuario: $userId tiene los carros en el taller", HttpStatus.OK)
+    }
+
+    fun fallBackSaveCar(
+        @PathVariable userId: Int,
+        @RequestBody car: Car,
+        exception: RuntimeException
+    ): ResponseEntity<String> {
+        return ResponseEntity("El usuario: $userId no tiene dinero para los carros", HttpStatus.OK)
+    }
+
+    fun fallBackGetAll(@PathVariable userId: Int, exception: RuntimeException): ResponseEntity<String> {
+        return ResponseEntity("El usuario: $userId tiene los vehiculos en el taller", HttpStatus.OK)
     }
 }

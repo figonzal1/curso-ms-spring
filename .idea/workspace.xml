@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="940f0df5-e60d-460b-aa91-9fa3f20bd04f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/feignclients/CarFeignClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/feignclients/CarFeignClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/feignclients/MotoFeignClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/feignclients/MotoFeignClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/user-ms.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/user-ms.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-ms/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-ms/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/config/RestTemplateConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/config/RestTemplateConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/controller/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/controller/UserController.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/service/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/user-ms/src/main/kotlin/cl/figonzal/userms/service/UserService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4016" />
+    <option name="totalTimeSeconds" value="7273" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -58,6 +61,11 @@
         <option value="Felipe González Alarcón &lt;felipe.gonzalezalarcon94@gmail.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gateway" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -81,26 +89,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Felipe/.gradle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;24f581eb07987d29cd74f34e107d0664&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Felipe/.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "spring.configuration.checksum": "24f581eb07987d29cd74f34e107d0664"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -162,7 +171,7 @@
       <updated>1654152469302</updated>
       <workItem from="1654152473839" duration="1085000" />
       <workItem from="1654195165437" duration="3575000" />
-      <workItem from="1654231738542" duration="757000" />
+      <workItem from="1654231738542" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo puerto para gateway">
       <created>1654152843660</created>
@@ -213,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654198631631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Reemplazo de rest template por feign para instancias dinamicas">
+      <created>1654232766423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654232766423</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +243,7 @@
     <MESSAGE value="Nuevos puertos" />
     <MESSAGE value="Correccion routing" />
     <MESSAGE value="Correccion routing 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correccion routing 2" />
+    <MESSAGE value="Reemplazo de rest template por feign para instancias dinamicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reemplazo de rest template por feign para instancias dinamicas" />
   </component>
 </project>
