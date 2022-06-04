@@ -30,6 +30,8 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:2.1.3")
     implementation("org.springframework.boot:spring-boot-starter-aop:2.7.0")
 
+    implementation("org.springframework.cloud:spring-cloud-sleuth-zipkin:3.1.2")
+
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")

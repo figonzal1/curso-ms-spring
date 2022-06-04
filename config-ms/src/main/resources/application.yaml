@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: circuit-breaker #branch
+          default-label: tracing #branch
           uri: https://github.com/figonzal1/curso-ms-spring.git
           search-paths: config-data
   application:
